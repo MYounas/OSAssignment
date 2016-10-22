@@ -5,6 +5,8 @@ import java.util.Random;
 public class Process {
     
     int[] arr;int PC=0,now_exec=0,next_proc_exec,q,exec_time,inst_length,i,j,k,id,color,rem_inst,IR=0,next_Id,last_exec,next_inst_exec=0;
+
+    public Process() {}
     
     public Process(int q,int inst_length,int id,int next_proc_exec) {
         rem_inst=inst_length;

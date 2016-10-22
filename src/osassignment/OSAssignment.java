@@ -19,7 +19,9 @@ public class OSAssignment {
         }
         System.out.print("Enter Quantum:");
         q=in.nextInt();
-        
+        for(i=0;i<n;i++){
+            p[i]=new Process();
+        }
         //here id=i
         for(i=0;i<n;i++){
             if(next_proc_Id>(n-1)){
